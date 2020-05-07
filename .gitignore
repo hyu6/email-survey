@@ -2,7 +2,7 @@
 # Project Specific
 ######################
 .prettierrc.json
-keys.js
+dev.js
 
 ######################
 # Node
