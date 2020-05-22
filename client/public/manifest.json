@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Email Surveys",
+  "name": "Create Email Surveys App",
   "icons": [
     {
       "src": "favicon.ico",
