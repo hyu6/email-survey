@@ -39,7 +39,7 @@ class Header extends Component {
             className="left brand-logo"
             style={{ margin: '0 10px' }}
           >
-            Email Surveys
+            Instant Survey
           </Link>
           <ul className="right">{this.renderContent()}</ul>
         </div>

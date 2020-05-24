@@ -1,1 +1,1 @@
-# Email Surveys
+# Instant Survey
