@@ -15,7 +15,7 @@ class Payments extends Component {
         stripeKey={process.env.REACT_APP_STRIPE_KEY}
       >
         <button
-          className="btn-small light-blue darken-1"
+          className="btn-small light-blue"
           style={{ margin: '0 16px 5px 0' }}
         >
           Add credits

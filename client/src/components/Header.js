@@ -32,7 +32,7 @@ class Header extends Component {
 
   render() {
     return (
-      <nav className="teal darken-1">
+      <nav className="teal">
         <div className="nav-wrapper">
           <Link
             to={this.props.auth ? '/surveys' : '/'}
