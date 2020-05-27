@@ -18,6 +18,24 @@
   text-align: center;
 }
 
+.survey-wrapper .next-button {
+  padding-left: 18px;
+  padding-right: 11px;
+}
+
+.survey-wrapper .next-button i {
+  margin: 0 auto 0 5px;
+}
+
+.survey-wrapper .back-button {
+  padding-left: 11px;
+  padding-right: 18px;
+}
+
+.survey-wrapper .back-button i {
+  margin: 0 5px 0 auto;
+}
+
 .survey-form .cancel-link {
   border: 1px solid black;
 }
