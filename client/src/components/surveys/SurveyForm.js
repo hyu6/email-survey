@@ -32,14 +32,11 @@ class SurveyForm extends Component {
     return (
       <div>
         <form
+          className="survey-form"
           onSubmit={this.props.handleSubmit((values) => console.log(values))}
         >
           {this.renderFields()}
-          <Link
-            to="/surveys"
-            className="btn-flat white left"
-            style={{ border: '1px solid black' }}
-          >
+          <Link to="/surveys" className="cancel-link btn-flat white left">
             Cancel
           </Link>
           <button className="btn-flat white-text teal right" type="submit">

@@ -1,0 +1,32 @@
+.landing-wrapper {
+  text-align: center;
+}
+
+.nav-wrapper .brand-logo {
+  margin: 0 12px;
+}
+
+.payments-button {
+  margin: 0 16px 5px 0;
+}
+
+.credits-item {
+  margin: 0 10px;
+}
+
+.survey-form .cancel-link {
+  border: 1px solid black;
+}
+
+.survey-field-wrapper label {
+  font-size: 18px;
+}
+
+.survey-field-wrapper input {
+  margin-bottom: 5px;
+}
+
+.survey-field-wrapper .error-message {
+  margin-bottom: 20px;
+  font-style: italic;
+}
