@@ -28,6 +28,10 @@
   font-size: 18px;
 }
 
+.survey-wrapper button, .cancel-link {
+  vertical-align: middle;
+}
+
 .survey-wrapper .next-button {
   padding-left: 18px;
   padding-right: 11px;
@@ -37,13 +41,22 @@
   margin: 0 auto 0 5px;
 }
 
+.survey-wrapper .send-button {
+  padding-left: 14.5px;
+  padding-right: 9px;
+}
+
+.survey-wrapper .send-button i {
+  margin: 0 2px 0 8px;
+}
+
 .survey-wrapper .back-button {
   padding-left: 11px;
   padding-right: 18px;
 }
 
 .survey-wrapper .back-button i {
-  margin: 0 5px 0 auto;
+  margin: 0 4.5px 0 auto;
 }
 
 .survey-form .cancel-link {

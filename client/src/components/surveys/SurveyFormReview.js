@@ -26,6 +26,10 @@ const SurveyFormReview = ({ onCancel, formValues }) => {
         Back
         <i className="material-icons left">navigate_before</i>
       </button>
+      <button className="send-button btn-flat white-text light-blue right">
+        Send
+        <i className="material-icons right">send</i>
+      </button>
     </div>
   );
 };
