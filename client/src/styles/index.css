@@ -1,5 +1,5 @@
-.landing-wrapper {
-  text-align: center;
+.header-nav {
+  margin-bottom: 10px;
 }
 
 .nav-wrapper .brand-logo {
@@ -12,6 +12,10 @@
 
 .credits-item {
   margin: 0 10px;
+}
+
+.landing-wrapper {
+  text-align: center;
 }
 
 .survey-form .cancel-link {
