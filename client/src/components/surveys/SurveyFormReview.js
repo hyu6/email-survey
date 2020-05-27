@@ -10,13 +10,13 @@ const SurveyFormReview = ({ onCancel, formValues }) => {
     return (
       <div key={name}>
         <label>{label}</label>
-        <div>{formValues[name]}</div>
+        <div className="survey-form-review-value">{formValues[name]}</div>
       </div>
     );
   });
 
   return (
-    <div>
+    <div className="survey-form-review-wrapper">
       <h5>Review</h5>
       {reviewFields}
       <button
