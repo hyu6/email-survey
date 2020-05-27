@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.survey-wrapper label {
+  font-size: 18px;
+}
+
 .survey-wrapper .next-button {
   padding-left: 18px;
   padding-right: 11px;
@@ -34,11 +38,6 @@
 
 .survey-wrapper .back-button i {
   margin: 0 5px 0 auto;
-}
-
-
-.survey-wrapper label {
-  font-size: 18px;
 }
 
 .survey-form .cancel-link {
