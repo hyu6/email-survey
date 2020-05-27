@@ -4,7 +4,7 @@ import React from 'react';
 
 export default ({ input, label, meta: { error, touched } }) => {
   return (
-    <div className="survey-field-wrapper">
+    <div>
       <label>{label}</label>
       <input {...input} />
       <div className="error-message red-text">{touched && error}</div>

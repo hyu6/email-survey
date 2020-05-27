@@ -36,12 +36,13 @@
   margin: 0 5px 0 auto;
 }
 
-.survey-form .cancel-link {
-  border: 1px solid black;
+
+.survey-wrapper label {
+  font-size: 18px;
 }
 
-.survey-field-wrapper label {
-  font-size: 18px;
+.survey-form .cancel-link {
+  border: 1px solid black;
 }
 
 .survey-field-wrapper input {
