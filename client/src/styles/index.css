@@ -25,7 +25,7 @@
 /* Survey */
 
 .survey-wrapper label {
-  font-size: 18px;
+  font-size: large;
 }
 
 .survey-wrapper button, .cancel-link {
@@ -74,5 +74,6 @@
 
 .survey-form-review-wrapper .survey-form-review-value {
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 26px;
+  font-size: large;
 }
