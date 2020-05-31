@@ -91,3 +91,22 @@
   margin-bottom: 26px;
   font-size: large;
 }
+
+/* Survey List */
+
+.survey-list .card .card-action {
+  min-height: 64px;
+}
+
+.survey-list .card .card-action .response-container {
+  display: inline-flex;
+  margin: 5px -10px;
+}
+
+.survey-list .card .card-action .response-container > div {
+  margin: auto 10px;
+}
+
+.survey-list .delete-button {
+  border: 1px solid red;
+}
