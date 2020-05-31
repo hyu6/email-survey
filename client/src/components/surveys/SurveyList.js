@@ -1,11 +1,41 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { confirmAlert } from 'react-confirm-alert';
+import 'react-confirm-alert/src/react-confirm-alert.css';
 
 import { fetchSurveys, deleteSurveyById } from '../../actions';
 
 class SurveyList extends Component {
   componentDidMount() {
     this.props.fetchSurveys();
+  }
+
+  delete(surveyTitle, surveyId) {
+    confirmAlert({
+      customUI: ({ onClose }) => {
+        return (
+          <div className="custom-ui">
+            <h4 className="title">Delete Survey</h4>
+            <p className="message">Are you sure to delete "{surveyTitle}"?</p>
+            <button
+              className="yes-button btn-flat red white-text left"
+              onClick={() => {
+                this.props.deleteSurveyById(surveyId);
+                onClose();
+              }}
+            >
+              YES
+            </button>
+            <button
+              className="no-button btn-flat white black-text right"
+              onClick={onClose}
+            >
+              NO
+            </button>
+          </div>
+        );
+      },
+    });
   }
 
   renderSurveys() {
@@ -30,7 +60,8 @@ class SurveyList extends Component {
             </div>
             <a
               className="delete-button btn-flat btn-small grey lighten-4 red-text right"
-              onClick={() => this.props.deleteSurveyById(survey._id)}
+              // onClick={() => this.props.deleteSurveyById(survey._id)}
+              onClick={() => this.delete(survey.title, survey._id)}
             >
               Delete
             </a>

@@ -110,3 +110,18 @@
 .survey-list .delete-button {
   border: 1px solid red;
 }
+
+.custom-ui .message {
+  font-size: 24px;
+  margin: 50px auto;
+}
+
+.custom-ui button {
+  height: 40px;
+  width: 80px;
+  font-size: medium;
+}
+
+.custom-ui .no-button {
+  border: 1px solid black;
+}
