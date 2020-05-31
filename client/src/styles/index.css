@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 /* Header */
 
 .header-nav {
@@ -20,6 +22,14 @@
 
 .landing-wrapper {
   text-align: center;
+}
+
+.landing-wrapper .title {
+  font-family: 'Ubuntu';
+}
+
+.landing-wrapper .content {
+  font-size: large;
 }
 
 /* Survey */
@@ -63,6 +73,8 @@
   border: 1px solid black;
 }
 
+/* Survey Field */
+
 .survey-field-wrapper input {
   margin-bottom: 5px;
 }
@@ -71,6 +83,8 @@
   margin-bottom: 20px;
   font-style: italic;
 }
+
+/* Survey Form Review */
 
 .survey-form-review-wrapper .survey-form-review-value {
   margin-top: 5px;

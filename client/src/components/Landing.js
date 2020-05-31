@@ -3,8 +3,8 @@ import React from 'react';
 const Landing = () => {
   return (
     <div className="landing-wrapper">
-      <h1>Instant Survey</h1>
-      Collect feedback from your customers
+      <h1 className="title">Instant Survey</h1>
+      <div className="content">Collect feedback from your customers</div>
     </div>
   );
 };
