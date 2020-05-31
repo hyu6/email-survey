@@ -9,9 +9,9 @@ import App from './components/App';
 import reducers from './reducers';
 import './styles/index.css';
 
-// Dev only
-import axios from 'axios';
-window.axios = axios;
+// For development purposes only.
+// import axios from 'axios';
+// window.axios = axios;
 
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
