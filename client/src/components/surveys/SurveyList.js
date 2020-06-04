@@ -60,7 +60,6 @@ class SurveyList extends Component {
             </div>
             <a
               className="delete-button btn-flat btn-small grey lighten-4 red-text right"
-              // onClick={() => this.props.deleteSurveyById(survey._id)}
               onClick={() => this.delete(survey.title, survey._id)}
             >
               Delete
